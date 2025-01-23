@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background: #198754;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-left {
+    width: 70%;
+    display: flex;
+}
+
+.nav-left img {
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.nav-left li {
+    padding: 16px 24px;
+    font-weight: 500;
+    color: rgb(255, 253, 253);
+}
+
+.nav-right {
+    width: 30%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+
+.nav-right button {
+    margin-right: 20px;
+    background: white;
+    color: black;
+}
+
+.about {
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+
+.about-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img {
+    width: 90%;
+    border-radius: 10px;
+    height: 90%;
+}
+
+.about-right {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.about-right h1 {
+    font-size: 30px;
+    margin-left: 20px;
+    color: green;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.about-right p {
+    padding: 5px 20px;
+}
+
+
+@media (max-width: 430px) {
+    nav {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        background: white;
+    }
+
+    .nav-left img {
+        width: 41px;
+        height: 36px;
+        margin-left: 6px;
+        margin-top: 8px;
+    }
+
+    .nav-left {
+        width: 60%;
+        display: flex;
+    }
+
+    .nav-left li {
+        padding: 16px 9px;
+        font-size: 12px;
+        color: black;
+    }
+
+    .nav-right {
+        width: 40%;
+        height: 100%;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .btn-outline-success {
+        margin-right: 7px;
+        margin-left: -6px;
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+
+    .btn-success {
+        margin-right: -30px;
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+}
+
+
+/*Footer stlying*/
+
+footer {
+    width: 95%;
+    height: 300px;
+    background: green;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-left {
+    width: 31.3%;
+    height: 100%;
+    display: block;
+}
+
+.footer-left img {
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.footer-left p {
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-right {
+    width: 68.7%;
+    display: flex;
+    height: 100%;
+}
+
+.box {
+    width: 25%;
+    height: 100%;
+    display: block;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: white;
+}
+
+.box p {
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+
+
+@media (max-width: 430px) {
+    footer {
+        width: 95%;
+        height: 219px;
+        background: green;
+        margin: auto;
+        margin-top: 48px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .footer-left img {
+        margin-left: 29px;
+        width: 60px;
+        height: 60px;
+        margin-top: 11px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    .footer-left p {
+        padding: 5px 10px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+
+    .box h1 {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .box p {
+        text-align: center;
+        padding: 7px 0px;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .about {
+        width: 100%;
+        height: 244px;
+        display: flex;
+    }
+
+    .about-right h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        color: green;
+        margin-top: 7px;
+        font-weight: 700;
+        margin-bottom: 2px;
+    }
+
+    .about-right p {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
+
+}

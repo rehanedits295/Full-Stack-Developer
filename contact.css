@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background: #198754;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-left {
+    width: 70%;
+    display: flex;
+}
+
+.nav-left img {
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.nav-left li {
+    padding: 16px 24px;
+    font-weight: 500;
+    color: rgb(255, 253, 253);
+}
+
+.nav-right {
+    width: 30%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+
+.nav-right button {
+    margin-right: 20px;
+    background: white;
+    color: black;
+}
+
+
+@media (max-width: 430px) {
+    nav {
+        width: 100%;
+        height: 52px;
+        display: flex;
+        background: white;
+    }
+
+    .nav-left img {
+        width: 41px;
+        height: 36px;
+        margin-left: 6px;
+        margin-top: 8px;
+    }
+
+    .nav-left {
+        width: 60%;
+        display: flex;
+    }
+
+    .nav-left li {
+        padding: 16px 9px;
+        font-size: 12px;
+        color: black;
+    }
+
+    .nav-right {
+        width: 40%;
+        height: 100%;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .btn-outline-success {
+        margin-right: 7px;
+        margin-left: -6px;
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+
+    .btn-success {
+        margin-right: -30px;
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+}
+
+#contact{
+    width: 100%;
+    height: 600px;
+}
+
+
+#submit {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin-left: 55px;
+}
+
+
+#submit h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+}
+
+#submit p {
+    font-size: 20px;
+    text-align: center;
+    color: green;
+}
+
+#submit textarea {
+    margin-left: 152px;
+    margin-top: 28px;
+    border: 2px solid green;
+}
+
+#submit button {
+    margin-left: 152px;
+    margin-top: 28px;
+    color: white;
+    width: 60%;
+    padding: 10px;
+    background-color: green;
+}
+
+.first-sub {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.first-sub input {
+    border: 2px solid green;
+    padding: 10px;
+    margin-left: 130px;
+}
+
+/*Footer stlying*/
+
+footer{
+    width: 95%;
+    height: 300px;
+    background: green;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer-left{
+    width: 31.3%;
+    height: 100%;
+    display: block;
+}
+
+.footer-left img{
+    margin-left: 90px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.footer-left p{
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-right{
+    width: 68.7%;
+    display: flex;
+    height: 100%;
+}
+
+.box{
+    width: 25%;
+    height: 100%;
+    display: block;
+}
+
+.box h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: white;
+}
+
+.box p{
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+
+@media (max-width: 430px) {
+    footer {
+        width: 95%;
+        height: 219px;
+        background: green;
+        margin: auto;
+        margin-top: 48px;
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .footer-left img {
+        margin-left: 29px;
+        width: 60px;
+        height: 60px;
+        margin-top: 11px;
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+
+    .footer-left p {
+        padding: 5px 10px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+
+    .box h1 {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+    .box p {
+        text-align: center;
+        padding: 7px 0px;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    #contact {
+        width: 100%;
+        height: 375px;
+    }
+
+    #submit h1 {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+        color: black;
+        margin-left: -79px;
+    }
+
+    #submit p {
+        font-size: 16px;
+        text-align: center;
+        color: green;
+        margin-left: -72px;
+        margin-top: 1px;
+    }
+
+    .first-sub input {
+        border: 2px solid green;
+        padding: 9px;
+        margin-left: 23px;
+        height: 37px;
+        width: 31%;
+    }
+
+    #submit textarea {
+        margin-left: 33px;
+        margin-top: 28px;
+        border: 2px solid green;
+        width: 65%;
+        height: 105px;
+        margin-top: 6px;
+    }
+
+    #submit button {
+        margin-left: 34px;
+        margin-top: 12px;
+        color: white;
+        width: 65%;
+        padding: 10px;
+        background-color: green;
+    }
+
+    .section {
+        width: 95%;
+        margin: auto;
+        height: 1216px;
+        margin-top: 50px;
+        background: white;
+        border-radius: 10px;
+    }
+}
